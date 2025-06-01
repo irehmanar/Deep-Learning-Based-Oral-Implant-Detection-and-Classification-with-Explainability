@@ -20,7 +20,7 @@ Accurate identification and classification of dental implants in radiographic im
 
 ## Dataset
 
-We utilize the publicly available [OII-DS dataset](https://example.com) containing 3,834 oral CT images and 15,240 labeled implant crops across five classes:
+We utilize the publicly available OII-DS dataset containing 3,834 oral CT images and 15,240 labeled implant crops across five classes:
 - Single Implant
 - Double Implant
 - Compound Implant
@@ -47,7 +47,7 @@ To set up the project locally, follow these steps:
 
 We employed Faster R-CNN for detection and ResNet50 for classification. To train the models:
 
-1. Prepare the dataset as described in the [Dataset](#dataset) section.
+1. Prepare the dataset as described in the Dataset section.
 
 2. Run the training script:
    ```bash
@@ -65,7 +65,7 @@ An interactive chatbot interface is included to assist clinicians in querying im
 
 ## Results
 
-Our Faster R-CNN detector achieves a mean average precision (mAP) of 92.53%, and the ResNet50 classification model attains a validation accuracy of 99.41%. Detailed results and evaluation metrics can be found in the [results](results/) directory.
+Our Faster R-CNN detector achieves a mean average precision (mAP) of 92.53%, and the ResNet50 classification model attains a validation accuracy of 99.41%. Detailed results and evaluation metrics can be found in the results directory.
 
 ## Acknowledgements
 
