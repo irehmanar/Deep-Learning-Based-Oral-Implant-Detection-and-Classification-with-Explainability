@@ -43,6 +43,10 @@ To set up the project locally, follow these steps:
 
 3. Run Classification.ipynb 
 
+
+## Hugging face
+https://huggingface.co/spaces/irehmanar/dental-implant-classifier
+
 ## Model Training
 
 We employed Faster R-CNN for detection and ResNet50 for classification. To train the models:
